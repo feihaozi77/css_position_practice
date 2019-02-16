@@ -1,0 +1,97 @@
+.boxes {
+    width: 100%;
+    text-align: center;
+    background: #D3E0E3;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.box {
+    font-weight: bold;
+    width: 80%;
+    font-size:2.4em;
+    margin:auto;
+}
+
+.box1 {
+    background: rgb(125, 221, 29);
+    position: fixed;
+    top: 15px;
+}
+
+.box2 {
+    background: coral;
+    position: absolute;
+}
+
+.box3 {
+    background: cornflowerblue;
+}
+
+.box4 {
+    background: crimson;
+}
+
+
+.bos {
+    font-weight: bold;
+    width: 80%;
+    font-size:2.4em;
+    margin:auto;
+}
+
+.bos1 {
+    background: rgb(125, 221, 29);
+}
+
+.bos2 {
+    background: coral;
+}
+
+.bos3 {
+    background: cornflowerblue;
+}
+
+.bos4 {
+    background: crimson;
+}
+.ddmenu {
+    display: none;
+    position:absolute;
+    top:100%;
+    left:40%;
+    
+    border:2px solid greenyellow;
+}
+.container {
+    width: 100%;
+    background: black;
+    text-align:right;
+}
+.button-toggle-dd:last-child{
+    border-radius: 0px;
+  }
+
+  .button-toggle-dd:last-child .ddmenu{
+    
+}
+
+.button-toggle-dd{
+    height:50px;
+    width:100px;
+    padding:5px;
+    background-color: orange;
+    background-clip: content-box;
+    border:2px solid greenyellow;
+    text-align: center;
+    border-radius:10px;
+    margin:20px;
+    display:inline-block;
+    position:relative;
+}
+.button-toggle-dd:hover .ddmenu{
+    display:block;
+    
+}
+.button-wrapper{
+    margin:10px;
+}
